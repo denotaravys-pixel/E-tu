@@ -23,7 +23,7 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Build JRE JAR files
+      - name: Build JRE JAR filess
         run: |
           chmod +x gradlew
           mkdir out
